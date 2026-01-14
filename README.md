@@ -1,4 +1,4 @@
-# Housing Price Prediction with Feature Engineering
+# Hackathon:Housing Price Prediction--2025.6
 
 This project focuses on **predicting residential housing prices** using structured, spatial, and textual features, with an emphasis on **feature engineering and model comparison**.
 
@@ -41,6 +41,10 @@ This project focuses on **predicting residential housing prices** using structur
   - Stacking with tree models and regularized linear meta-models
 
 Evaluation metrics include **RMSE, MAE**, and an external benchmark score.
+
+## Results (Hackathon Benchmark)
+The final XGBoost-based ensemble achieved a **Datahub score of 84.1**, outperforming linear and single-model baselines.
+
 ---
 
 ## Key Takeaways
@@ -49,4 +53,3 @@ Evaluation metrics include **RMSE, MAE**, and an external benchmark score.
 - Tree-based models outperform linear and neural models on this dataset
 - Ensemble methods offer marginal but consistent improvements over single models
 ---
-
